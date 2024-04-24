@@ -6,4 +6,4 @@ We have split the work evenly and fairly
 We have implemented few gaming mechanics into our game, these includes 
 ( Basic Movement control, Attacking, Wall Jump, Sliding, hurtbox and hitbox, Teleporter and background Music)
 
- [![IMAGE ALT TEXT HERE] (https://img.youtube.come/vi/DViQ-Byivps/0.jpg](https://www.youtube.com/watch?v=DViQ-Byivps)
+ [![LINK TO OUR VIDEO DEMO] (https://img.youtube.come/vi/DViQ-Byivps/0.jpg](https://www.youtube.com/watch?v=DViQ-Byivps)
