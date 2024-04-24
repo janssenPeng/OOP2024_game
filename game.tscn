@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://dl0r8gv25sfy3"]
+
+[ext_resource type="Script" path="res://game.gd" id="1_doume"]
+
+[node name="Game" type="CanvasLayer"]
+layer = 99
+script = ExtResource("1_doume")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)

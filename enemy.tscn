@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://b2w6lewofmqpo"]
+
+[ext_resource type="Script" path="res://StateMachine.gd" id="1_6jcu4"]
+[ext_resource type="Script" path="res://enemy.gd" id="1_ymaje"]
+[ext_resource type="Script" path="res://Hitbox.gd" id="2_ttpvb"]
+
+[node name="Enemy" type="CharacterBody2D"]
+collision_layer = 4
+script = ExtResource("1_ymaje")
+
+[node name="Graphics" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Graphics"]
+
+[node name="Hitbox" type="Area2D" parent="Graphics"]
+collision_layer = 0
+collision_mask = 8
+script = ExtResource("2_ttpvb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="StateMachine" type="Node" parent="."]
+script = ExtResource("1_6jcu4")
